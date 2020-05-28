@@ -6,8 +6,6 @@ extern "C" {
 #endif
 
 void replacechr(char* begin, char* end, char before, char after);
-void replacechr_fancy(char* begin, char* end, char before, char after);
-void replacechr_naive(char* begin, char* end, char before, char after);
 
 #ifdef __cplusplus
 }
